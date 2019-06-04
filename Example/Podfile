@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LetheTableView_Example' do
+  pod 'LetheTableView', :path => '../'
+
+  target 'LetheTableView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
