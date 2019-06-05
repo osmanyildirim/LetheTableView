@@ -1,0 +1,16 @@
+PODS:
+  - LetheTableView (0.1.0)
+
+DEPENDENCIES:
+  - LetheTableView (from `../`)
+
+EXTERNAL SOURCES:
+  LetheTableView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LetheTableView: 3b034b455a0c2395be19b2e0c9a9e079b4874f2a
+
+PODFILE CHECKSUM: 40f6e84abd4c84d6c6043d0b56d3aff51217a166
+
+COCOAPODS: 1.7.1

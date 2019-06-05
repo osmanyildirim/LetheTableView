@@ -1,0 +1,777 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BD119051035536027E4ECA040AE7A6F /* LetheTableViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC6D1783FA0F4C1C1BA4113E0AED583 /* LetheTableViewProtocol.swift */; };
+		22589FFF035B0833353DC6BD35C47236 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		35858BE641DA9C2A3F8A31EC6CC2DD52 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		8764BB8FFABD224ECBF5132A85E11A2D /* LetheHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C1FB289B4FD4B6E2D3D2C2092E4129 /* LetheHeaderView.swift */; };
+		8F2F6D6C161FF4F55B44054A58C202B4 /* LetheTableView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A4F5FCFE17AE37068DE3BEBF1171B0C /* LetheTableView-dummy.m */; };
+		9E3D3B754CB2522BBF340EB6CEAD4B6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		A7A90365734CA8319B2BFEAD26846F7A /* Pods-LetheTableView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E5505946C9FF5D57638D0050ACA6C618 /* Pods-LetheTableView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B31B00BD5B6B04A00E6EA8232C5E6D29 /* Pods-LetheTableView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DBBEAD656A90AA13739772ADB3BA8C1B /* Pods-LetheTableView_Tests-dummy.m */; };
+		BB44F6273460F744415D7E50353FB878 /* LetheTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B25C90F2A19F63621278EA1E69AD626 /* LetheTableView.swift */; };
+		D8933722FBA0DA154703BFB9ABBB9FC9 /* Pods-LetheTableView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F41D9ED77D192DF09089B07FD150736E /* Pods-LetheTableView_Example-dummy.m */; };
+		EEF41504690D893F7FE67B7AD8C40B23 /* LetheTableView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3342132A0BE356A9CBF8E35DD71958B3 /* LetheTableView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F428C4A52FF1BC6F04416EB339E44F34 /* Pods-LetheTableView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 371531506E4B22E7230B4B88F6E3D72C /* Pods-LetheTableView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		61C075BD69FB13DA5F3271D4FEADC290 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 573C9A8ED02430F86B1BC0DBD722F2C7;
+			remoteInfo = LetheTableView;
+		};
+		9C68EB78DCBA06FC4061C73FDD2B3DF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C18E060448B412949261DF5A56B6C37;
+			remoteInfo = "Pods-LetheTableView_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08C117C6C1C4826332B4ADDA1C80A1A4 /* Pods-LetheTableView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LetheTableView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		0E378439068E3DE9FB0961E85EB0499B /* LetheTableView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LetheTableView.xcconfig; sourceTree = "<group>"; };
+		0F816EF48754F50E07894B2CC077F4B3 /* Pods-LetheTableView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LetheTableView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		14B40E920CEAE7FC8DBC0EA4FBE25F6F /* Pods-LetheTableView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LetheTableView_Tests-Info.plist"; sourceTree = "<group>"; };
+		1B25C90F2A19F63621278EA1E69AD626 /* LetheTableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LetheTableView.swift; path = LetheTableView/Classes/LetheTableView.swift; sourceTree = "<group>"; };
+		2A4F5FCFE17AE37068DE3BEBF1171B0C /* LetheTableView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LetheTableView-dummy.m"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		32DA37AED8DEB0514B39A9B9BDDA6E3B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		3342132A0BE356A9CBF8E35DD71958B3 /* LetheTableView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LetheTableView-umbrella.h"; sourceTree = "<group>"; };
+		34BDF4E6010CB0FB026DF1DF660DBE4C /* Pods_LetheTableView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LetheTableView_Example.framework; path = "Pods-LetheTableView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36F3F8503D9D44FC3D1F99574A1FC09E /* LetheTableView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LetheTableView-Info.plist"; sourceTree = "<group>"; };
+		371531506E4B22E7230B4B88F6E3D72C /* Pods-LetheTableView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LetheTableView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		3AAC20423AD2AD2525A62D357EE3E762 /* Pods-LetheTableView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LetheTableView_Example.modulemap"; sourceTree = "<group>"; };
+		41AE22A3E0638CC65C90F63FB2549821 /* Pods-LetheTableView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LetheTableView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		453985E351B54EB4562CBB5A57E2EA8C /* Pods-LetheTableView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LetheTableView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		483545BD8C5E6B292C323C41D7C1EA27 /* Pods-LetheTableView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LetheTableView_Tests.modulemap"; sourceTree = "<group>"; };
+		7FB952376B85F79AE175D6540ED83E17 /* LetheTableView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LetheTableView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95282E0940DD6DFBA8FA2A1FEB6C6AAF /* Pods_LetheTableView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LetheTableView_Tests.framework; path = "Pods-LetheTableView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F178E5D7307C33EC0A7D275DA52569C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		A503F5869D0983A15A5B56BF44F2E7D7 /* LetheTableView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LetheTableView-prefix.pch"; sourceTree = "<group>"; };
+		A97B49D353ED180AA1AAEE8DAC2905C8 /* Pods-LetheTableView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LetheTableView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B98A27B063A14B01037A1819B74F99AE /* LetheTableView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LetheTableView.modulemap; sourceTree = "<group>"; };
+		BBC6D1783FA0F4C1C1BA4113E0AED583 /* LetheTableViewProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LetheTableViewProtocol.swift; path = LetheTableView/Classes/LetheTableViewProtocol.swift; sourceTree = "<group>"; };
+		C00A9289805F8102CAC0E445E08E442E /* Pods-LetheTableView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LetheTableView_Example-Info.plist"; sourceTree = "<group>"; };
+		C8C1FB289B4FD4B6E2D3D2C2092E4129 /* LetheHeaderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LetheHeaderView.swift; path = LetheTableView/Classes/LetheHeaderView.swift; sourceTree = "<group>"; };
+		DBBEAD656A90AA13739772ADB3BA8C1B /* Pods-LetheTableView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LetheTableView_Tests-dummy.m"; sourceTree = "<group>"; };
+		DC75B9BC07FBF936F907D7F015326956 /* Pods-LetheTableView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LetheTableView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E5505946C9FF5D57638D0050ACA6C618 /* Pods-LetheTableView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LetheTableView_Example-umbrella.h"; sourceTree = "<group>"; };
+		E6703DD4D3C79E8AC1C479D6128F64D5 /* Pods-LetheTableView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LetheTableView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E713C74830B40319CA970F5401EA01C9 /* Pods-LetheTableView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LetheTableView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		EA03F12774E8BDE521AA5F714C5DE56B /* Pods-LetheTableView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LetheTableView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		F001AC747988DC188CDCE8047D95D9F8 /* LetheTableView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LetheTableView.framework; path = LetheTableView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F41D9ED77D192DF09089B07FD150736E /* Pods-LetheTableView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LetheTableView_Example-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C5560518BB50953EE9CD29901653E9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E3D3B754CB2522BBF340EB6CEAD4B6B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		752E6C220B73B4FB5F87F634BCC12A93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22589FFF035B0833353DC6BD35C47236 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90E89006C26F519025DA2B4A7944C205 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35858BE641DA9C2A3F8A31EC6CC2DD52 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1BA84DACB3159D53A51120459212A0F9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B98A27B063A14B01037A1819B74F99AE /* LetheTableView.modulemap */,
+				0E378439068E3DE9FB0961E85EB0499B /* LetheTableView.xcconfig */,
+				2A4F5FCFE17AE37068DE3BEBF1171B0C /* LetheTableView-dummy.m */,
+				36F3F8503D9D44FC3D1F99574A1FC09E /* LetheTableView-Info.plist */,
+				A503F5869D0983A15A5B56BF44F2E7D7 /* LetheTableView-prefix.pch */,
+				3342132A0BE356A9CBF8E35DD71958B3 /* LetheTableView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LetheTableView";
+			sourceTree = "<group>";
+		};
+		3A4D3936D1056C54B99A1C146A96210C /* Pods-LetheTableView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				3AAC20423AD2AD2525A62D357EE3E762 /* Pods-LetheTableView_Example.modulemap */,
+				A97B49D353ED180AA1AAEE8DAC2905C8 /* Pods-LetheTableView_Example-acknowledgements.markdown */,
+				EA03F12774E8BDE521AA5F714C5DE56B /* Pods-LetheTableView_Example-acknowledgements.plist */,
+				F41D9ED77D192DF09089B07FD150736E /* Pods-LetheTableView_Example-dummy.m */,
+				08C117C6C1C4826332B4ADDA1C80A1A4 /* Pods-LetheTableView_Example-frameworks.sh */,
+				C00A9289805F8102CAC0E445E08E442E /* Pods-LetheTableView_Example-Info.plist */,
+				E5505946C9FF5D57638D0050ACA6C618 /* Pods-LetheTableView_Example-umbrella.h */,
+				E6703DD4D3C79E8AC1C479D6128F64D5 /* Pods-LetheTableView_Example.debug.xcconfig */,
+				0F816EF48754F50E07894B2CC077F4B3 /* Pods-LetheTableView_Example.release.xcconfig */,
+			);
+			name = "Pods-LetheTableView_Example";
+			path = "Target Support Files/Pods-LetheTableView_Example";
+			sourceTree = "<group>";
+		};
+		46F3FADD370318CB79A599F426FFF54A /* LetheTableView */ = {
+			isa = PBXGroup;
+			children = (
+				C8C1FB289B4FD4B6E2D3D2C2092E4129 /* LetheHeaderView.swift */,
+				1B25C90F2A19F63621278EA1E69AD626 /* LetheTableView.swift */,
+				BBC6D1783FA0F4C1C1BA4113E0AED583 /* LetheTableViewProtocol.swift */,
+				DE15CC9AA8C1692CBCE9235891C9F79F /* Pod */,
+				1BA84DACB3159D53A51120459212A0F9 /* Support Files */,
+			);
+			name = LetheTableView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7B81BF35FAAE5D172BBC396B49CFD55C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				46F3FADD370318CB79A599F426FFF54A /* LetheTableView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A4AF085888D381FE17632D06B09BFF12 /* Pods-LetheTableView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				483545BD8C5E6B292C323C41D7C1EA27 /* Pods-LetheTableView_Tests.modulemap */,
+				453985E351B54EB4562CBB5A57E2EA8C /* Pods-LetheTableView_Tests-acknowledgements.markdown */,
+				DC75B9BC07FBF936F907D7F015326956 /* Pods-LetheTableView_Tests-acknowledgements.plist */,
+				DBBEAD656A90AA13739772ADB3BA8C1B /* Pods-LetheTableView_Tests-dummy.m */,
+				14B40E920CEAE7FC8DBC0EA4FBE25F6F /* Pods-LetheTableView_Tests-Info.plist */,
+				371531506E4B22E7230B4B88F6E3D72C /* Pods-LetheTableView_Tests-umbrella.h */,
+				41AE22A3E0638CC65C90F63FB2549821 /* Pods-LetheTableView_Tests.debug.xcconfig */,
+				E713C74830B40319CA970F5401EA01C9 /* Pods-LetheTableView_Tests.release.xcconfig */,
+			);
+			name = "Pods-LetheTableView_Tests";
+			path = "Target Support Files/Pods-LetheTableView_Tests";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				7B81BF35FAAE5D172BBC396B49CFD55C /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				FB97F81370C4599E971A48A94A37F563 /* Products */,
+				E8FA5EE08CE2EDCEC430865D2A547790 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE15CC9AA8C1692CBCE9235891C9F79F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				7FB952376B85F79AE175D6540ED83E17 /* LetheTableView.podspec */,
+				32DA37AED8DEB0514B39A9B9BDDA6E3B /* LICENSE */,
+				9F178E5D7307C33EC0A7D275DA52569C /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		E8FA5EE08CE2EDCEC430865D2A547790 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A4D3936D1056C54B99A1C146A96210C /* Pods-LetheTableView_Example */,
+				A4AF085888D381FE17632D06B09BFF12 /* Pods-LetheTableView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		FB97F81370C4599E971A48A94A37F563 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F001AC747988DC188CDCE8047D95D9F8 /* LetheTableView.framework */,
+				34BDF4E6010CB0FB026DF1DF660DBE4C /* Pods_LetheTableView_Example.framework */,
+				95282E0940DD6DFBA8FA2A1FEB6C6AAF /* Pods_LetheTableView_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		075CDD40E064410A1E330F1A30D48164 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F428C4A52FF1BC6F04416EB339E44F34 /* Pods-LetheTableView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B9C6925E3DAF791A3CC0EA555E86C15 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7A90365734CA8319B2BFEAD26846F7A /* Pods-LetheTableView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2DC275B257C28283AA8AA9CB0868917 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEF41504690D893F7FE67B7AD8C40B23 /* LetheTableView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		121CC856D646B19D92E004A1A90CDC12 /* Pods-LetheTableView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 944AD698BB775EEA4E4526D464F7FB48 /* Build configuration list for PBXNativeTarget "Pods-LetheTableView_Tests" */;
+			buildPhases = (
+				075CDD40E064410A1E330F1A30D48164 /* Headers */,
+				48B3411AECE58635B580EA9556175B05 /* Sources */,
+				3C5560518BB50953EE9CD29901653E9F /* Frameworks */,
+				8D1DFBEA8523E64C05FC245A6E8B4144 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0404FCEA456EDED1640A7287A28B34B /* PBXTargetDependency */,
+			);
+			name = "Pods-LetheTableView_Tests";
+			productName = "Pods-LetheTableView_Tests";
+			productReference = 95282E0940DD6DFBA8FA2A1FEB6C6AAF /* Pods_LetheTableView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4C18E060448B412949261DF5A56B6C37 /* Pods-LetheTableView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78438C1EA82A435548F00761CCB7C00F /* Build configuration list for PBXNativeTarget "Pods-LetheTableView_Example" */;
+			buildPhases = (
+				4B9C6925E3DAF791A3CC0EA555E86C15 /* Headers */,
+				403C002FF4A3A5C114FF27A0465FA7D3 /* Sources */,
+				90E89006C26F519025DA2B4A7944C205 /* Frameworks */,
+				91833EA6FCB133C83CF6EF6C6A165C85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E4DBCA66EB09691CA0D402AF3A6CD5B /* PBXTargetDependency */,
+			);
+			name = "Pods-LetheTableView_Example";
+			productName = "Pods-LetheTableView_Example";
+			productReference = 34BDF4E6010CB0FB026DF1DF660DBE4C /* Pods_LetheTableView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		573C9A8ED02430F86B1BC0DBD722F2C7 /* LetheTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DCBF63A92A2D1F9B7464F3FD52BBBB9 /* Build configuration list for PBXNativeTarget "LetheTableView" */;
+			buildPhases = (
+				A2DC275B257C28283AA8AA9CB0868917 /* Headers */,
+				A52F48698DF8660098C1445ECA9022F9 /* Sources */,
+				752E6C220B73B4FB5F87F634BCC12A93 /* Frameworks */,
+				7635818B12549700037716785F87165E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LetheTableView;
+			productName = LetheTableView;
+			productReference = F001AC747988DC188CDCE8047D95D9F8 /* LetheTableView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = FB97F81370C4599E971A48A94A37F563 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				573C9A8ED02430F86B1BC0DBD722F2C7 /* LetheTableView */,
+				4C18E060448B412949261DF5A56B6C37 /* Pods-LetheTableView_Example */,
+				121CC856D646B19D92E004A1A90CDC12 /* Pods-LetheTableView_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7635818B12549700037716785F87165E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D1DFBEA8523E64C05FC245A6E8B4144 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91833EA6FCB133C83CF6EF6C6A165C85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		403C002FF4A3A5C114FF27A0465FA7D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8933722FBA0DA154703BFB9ABBB9FC9 /* Pods-LetheTableView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48B3411AECE58635B580EA9556175B05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B31B00BD5B6B04A00E6EA8232C5E6D29 /* Pods-LetheTableView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A52F48698DF8660098C1445ECA9022F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8764BB8FFABD224ECBF5132A85E11A2D /* LetheHeaderView.swift in Sources */,
+				8F2F6D6C161FF4F55B44054A58C202B4 /* LetheTableView-dummy.m in Sources */,
+				BB44F6273460F744415D7E50353FB878 /* LetheTableView.swift in Sources */,
+				0BD119051035536027E4ECA040AE7A6F /* LetheTableViewProtocol.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1E4DBCA66EB09691CA0D402AF3A6CD5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LetheTableView;
+			target = 573C9A8ED02430F86B1BC0DBD722F2C7 /* LetheTableView */;
+			targetProxy = 61C075BD69FB13DA5F3271D4FEADC290 /* PBXContainerItemProxy */;
+		};
+		E0404FCEA456EDED1640A7287A28B34B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LetheTableView_Example";
+			target = 4C18E060448B412949261DF5A56B6C37 /* Pods-LetheTableView_Example */;
+			targetProxy = 9C68EB78DCBA06FC4061C73FDD2B3DF4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2FBF2EB3E6A8605F53D521EBB06EE491 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E713C74830B40319CA970F5401EA01C9 /* Pods-LetheTableView_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LetheTableView_Tests/Pods-LetheTableView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LetheTableView_Tests/Pods-LetheTableView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		67F7CD4C6712CAB3221D444317EEA79A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F816EF48754F50E07894B2CC077F4B3 /* Pods-LetheTableView_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LetheTableView_Example/Pods-LetheTableView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LetheTableView_Example/Pods-LetheTableView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		721061A6D602A1F3FB5103C43932A7A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6703DD4D3C79E8AC1C479D6128F64D5 /* Pods-LetheTableView_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LetheTableView_Example/Pods-LetheTableView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LetheTableView_Example/Pods-LetheTableView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DC1E5CC86C0D5E6F1659ABBB1405D591 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E378439068E3DE9FB0961E85EB0499B /* LetheTableView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LetheTableView/LetheTableView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LetheTableView/LetheTableView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LetheTableView/LetheTableView.modulemap";
+				PRODUCT_MODULE_NAME = LetheTableView;
+				PRODUCT_NAME = LetheTableView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E184591270C4CDF3EFE90F2316BECE38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41AE22A3E0638CC65C90F63FB2549821 /* Pods-LetheTableView_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LetheTableView_Tests/Pods-LetheTableView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LetheTableView_Tests/Pods-LetheTableView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F2B7FEC8EC265AE7B4A73EC53B1472A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E378439068E3DE9FB0961E85EB0499B /* LetheTableView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LetheTableView/LetheTableView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LetheTableView/LetheTableView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LetheTableView/LetheTableView.modulemap";
+				PRODUCT_MODULE_NAME = LetheTableView;
+				PRODUCT_NAME = LetheTableView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DCBF63A92A2D1F9B7464F3FD52BBBB9 /* Build configuration list for PBXNativeTarget "LetheTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC1E5CC86C0D5E6F1659ABBB1405D591 /* Debug */,
+				F2B7FEC8EC265AE7B4A73EC53B1472A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78438C1EA82A435548F00761CCB7C00F /* Build configuration list for PBXNativeTarget "Pods-LetheTableView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				721061A6D602A1F3FB5103C43932A7A6 /* Debug */,
+				67F7CD4C6712CAB3221D444317EEA79A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		944AD698BB775EEA4E4526D464F7FB48 /* Build configuration list for PBXNativeTarget "Pods-LetheTableView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E184591270C4CDF3EFE90F2316BECE38 /* Debug */,
+				2FBF2EB3E6A8605F53D521EBB06EE491 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
