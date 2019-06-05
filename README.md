@@ -23,7 +23,7 @@ it, simply add the following line to your Podfile:
 pod 'LetheTableView'
 ```
 
-In any file you'd like to use LetheStretchyHeader in, don't forget to
+In any file you'd like to use LetheTableView in, don't forget to
 import the framework with `import LetheTableView`.
 
 ### Manually
