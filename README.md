@@ -29,6 +29,11 @@ import the framework with `import LetheTableView`.
 ### Manually
 Download and drop `LetheTableView.swift, LetheHeaderView.swift, LetheTableViewProtocol.swift,` in your project.
 
+Usage
+------------
+
+![LetheTableView](LetheTableView.png)
+
 ## License
 
 LetheTableView is available under the MIT license. See the ``LICENSE` file for more info.
