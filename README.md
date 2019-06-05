@@ -11,7 +11,10 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
-## Installation
+Installation
+------------
+
+### CocoaPods
 
 LetheTableView is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
@@ -20,10 +23,12 @@ it, simply add the following line to your Podfile:
 pod 'LetheTableView'
 ```
 
-## Author
+In any file you'd like to use LetheStretchyHeader in, don't forget to
+import the framework with `import LetheTableView`.
 
-yildirimosman@outlook.com, YILDIRIM
+### Manually
+Download and drop `LetheTableView.swift, LetheHeaderView.swift, LetheTableViewProtocol.swift,` in your project.
 
 ## License
 
-LetheTableView is available under the MIT license. See the LICENSE file for more info.
+LetheTableView is available under the MIT license. See the ``LICENSE` file for more info.
