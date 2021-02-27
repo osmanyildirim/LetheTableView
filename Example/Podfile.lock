@@ -1,16 +1,16 @@
 PODS:
-  - LetheTableView (0.1.1)
+  - OYTableView (0.1.0)
 
 DEPENDENCIES:
-  - LetheTableView
+  - OYTableView (from `../`)
 
-SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
-    - LetheTableView
+EXTERNAL SOURCES:
+  OYTableView:
+    :path: "../"
 
 SPEC CHECKSUMS:
-  LetheTableView: 6647086aa7329e46a2e01fadcebf81f5a6c074ec
+  OYTableView: 4e06b580b7d097f3b4e06a0b81be5da18877afcf
 
-PODFILE CHECKSUM: 3a9fd8ed718713a9f318896e665eec364c8fdc0e
+PODFILE CHECKSUM: 86e3fba57bc065ad104d0fc970900e23f25d8762
 
-COCOAPODS: 1.7.1
+COCOAPODS: 1.10.1

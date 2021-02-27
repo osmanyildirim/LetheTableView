@@ -1,5 +1,5 @@
 import XCTest
-import LetheTableView
+import OYTableView
 
 class Tests: XCTestCase {
     

@@ -1,40 +1,27 @@
-# OYTableView
+//
+//  ViewController.swift
+//  OYTableView
+//
+//  Created by osmanyildirim on 02/27/2021.
+//  Copyright (c) 2021 osmanyildirim. All rights reserved.
+//
 
-[![CI Status](https://img.shields.io/travis/yildirimosman@outlook.com/OYTableView.svg?style=flat)](https://travis-ci.org/yildirimosman@outlook.com/OYTableView)
-[![Version](https://img.shields.io/cocoapods/v/OYTableView.svg?style=flat)](https://cocoapods.org/pods/OYTableView)
-[![License](https://img.shields.io/cocoapods/l/OYTableView.svg?style=flat)](https://cocoapods.org/pods/OYTableView)
-[![Platform](https://img.shields.io/cocoapods/p/OYTableView.svg?style=flat)](https://cocoapods.org/pods/OYTableView)
+import UIKit
+import OYTableView
 
-## Example
+final class ViewController: UIViewController {
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+    @IBOutlet private weak var tableView: OYTableView!
+    
+    private let headers = ["First Image", "Second Image", "Third Image", "Fourth Image"]
 
-## Requirements
+    override func viewDidLoad() {
+        super.viewDidLoad()
 
-Installation
-------------
+        tableView.register(UINib(nibName: "TableCell", bundle: nil), reuseIdentifier: "TableCell")
+    }
+}
 
-### CocoaPods
-
-OYTableView is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```ruby
-pod 'OYTableView'
-```
-
-In any file you'd like to use OYTableView in, don't forget to
-import the framework with `import OYTableView`.
-
-### Manually
-Download and drop `OYTableView.swift, OYHeaderView.swift, OYTableViewProtocol.swift,` in your project.
-
-Usage
-------------
-
-![OYTableView](OYTableView.png)
-
- ```swift
 extension ViewController: OYTableViewDataSource, OYTableViewDelegate {
     func numberOfSections(in oyTableView: UITableView) -> Int {
         return 1
@@ -49,7 +36,7 @@ extension ViewController: OYTableViewDataSource, OYTableViewDelegate {
     }
 
     func oyTableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return UITableView.automaticDimension
+        return UITableViewAutomaticDimension
     }
 
     func oyTableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
@@ -76,9 +63,3 @@ extension ViewController: OYTableViewDataSource, OYTableViewDelegate {
 
     }
 }
-```
-
-
-## License
-
-OYTableView is available under the MIT license. See the ``LICENSE` file for more info.

@@ -1,7 +1,13 @@
 use_frameworks!
 
-target 'LetheTableView_Example' do
-  pod 'LetheTableView'
+platform :ios, '9.0'
 
+target 'OYTableView_Example' do
+  pod 'OYTableView', :path => '../'
 
+  target 'OYTableView_Tests' do
+    inherit! :search_paths
+
+    
+  end
 end

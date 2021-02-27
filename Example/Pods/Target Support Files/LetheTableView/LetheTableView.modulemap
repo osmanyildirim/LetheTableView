@@ -1,6 +1,0 @@
-framework module LetheTableView {
-  umbrella header "LetheTableView-umbrella.h"
-
-  export *
-  module * { export * }
-}

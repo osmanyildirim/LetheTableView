@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="QuV-kL-yEr">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="56Z-bm-KSM">
+            <objects>
+                <viewController id="QuV-kL-yEr" customClass="ViewController" customModule="LetheTableView_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="TL0-4h-hbR"/>
+                        <viewControllerLayoutGuide type="bottom" id="zNj-wx-v8W"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="NWk-Lk-0FR">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="NJ1-n2-KyI">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="QuV-kL-yEr" id="I5a-TB-p3L"/>
+                                    <outlet property="delegate" destination="QuV-kL-yEr" id="7NQ-BR-9ro"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="NJ1-n2-KyI" firstAttribute="top" secondItem="NWk-Lk-0FR" secondAttribute="top" id="Vfc-tg-nVL"/>
+                            <constraint firstItem="NJ1-n2-KyI" firstAttribute="leading" secondItem="NWk-Lk-0FR" secondAttribute="leading" id="WWK-rH-SrI"/>
+                            <constraint firstAttribute="bottom" secondItem="NJ1-n2-KyI" secondAttribute="bottom" id="crZ-9J-p21"/>
+                            <constraint firstAttribute="trailing" secondItem="NJ1-n2-KyI" secondAttribute="trailing" id="kpK-tG-b6F"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="NJ1-n2-KyI" id="tke-UA-VZu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="B7z-SN-CaJ" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
+        </scene>
+    </scenes>
+</document>
