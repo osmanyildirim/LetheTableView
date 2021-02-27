@@ -32,7 +32,7 @@ Download and drop `OYTableView.swift, OYHeaderView.swift, OYTableViewProtocol.sw
 Usage
 ------------
 
-![OYTableView](OYTableView.png)
+<img src="OYTableView.png" width="696" height="600"/>
 
  ```swift
 extension ViewController: OYTableViewDataSource, OYTableViewDelegate {
